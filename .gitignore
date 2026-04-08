@@ -1,0 +1,6 @@
+.next/
+node_modules/
+.codex
+.DS_Store
+tsconfig.tsbuildinfo
+node_modules

@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #080b10;
+  --foreground: #eef2f7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(16, 185, 129, 0.08), transparent 28%),
+    linear-gradient(180deg, #080b10 0%, #090d13 48%, #070a0f 100%);
+  color: var(--foreground);
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+.font-mono {
+  font-family: "IBM Plex Mono", "SFMono-Regular", "Consolas", monospace;
+}
+
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-position: center;
+  background-size: 54px 54px;
+  mask-image: radial-gradient(circle at center, black 35%, transparent 85%);
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.25);
+  color: #f8fafc;
+}
