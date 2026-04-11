@@ -17,6 +17,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { experience } from "../data/experience";
 import { featuredProject, projects } from "../data/projects";
 import { skillGroups } from "../data/skills";
+import SidePanels from "./components/SidePanels";
 
 const LINKS = {
   github: "https://github.com/Ahmadsmnaser",
@@ -86,6 +87,7 @@ export default function Home() {
     <main className="min-h-screen bg-transparent text-zinc-100">
       <ScrollProgressBar />
       <BackgroundFX />
+      <SidePanels />
 
       <header className="sticky top-0 z-30 border-b border-white/8 bg-zinc-950/75 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
