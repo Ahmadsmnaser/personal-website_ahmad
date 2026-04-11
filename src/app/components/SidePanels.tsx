@@ -36,7 +36,7 @@ const JOBS_CONTENT = {
     { label: "Stage", value: "Early-career IC focused on low-level systems; love high-ownership eng teams" },
     {
       label: "Not a fit",
-      value: "Pure web/frontend, heavy SaaS product work, or companies where perf is an afterthought",
+      value: "Environments that lack technical depth, don’t prioritize performance, or aren’t supportive of engineering growth",
     },
   ],
   note: "If you're working on something where the CPU cache line layout actually matters — let's talk.",
