@@ -155,16 +155,16 @@ export default function Home() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <AButton href="#projects" solid icon={<ArrowRight size={18} />}>
-                View Projects 🚀
+                Projects 🚀
               </AButton>
               <AButton href={LINKS.github} newTab icon={<Github size={18} />}>
-                GitHub 🛠️
+                GitHub 
               </AButton>
               <AButton href={LINKS.linkedin} newTab icon={<Linkedin size={18} />}>
-                LinkedIn 🔗
+                LinkedIn 
               </AButton>
               <AButton href={LINKS.resumePdf} newTab icon={<FileText size={18} />}>
-                Resume 📄
+                Resume 
               </AButton>
             </div>
 
