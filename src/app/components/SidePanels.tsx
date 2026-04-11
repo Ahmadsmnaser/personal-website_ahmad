@@ -32,8 +32,8 @@ const JOBS_CONTENT = {
     { label: "Role", value: "Systems / Low-Level Software Engineer" },
     { label: "Focus", value: "Kernel internals, runtime performance, memory systems, OS tooling" },
     { label: "Stack", value: "C, C++, Rust, Linux, eBPF, x86 assembly" },
-    { label: "Environment", value: "Remote-friendly or on-site — US preferred, open to relocation" },
-    { label: "Stage", value: "Early-career to mid-level IC; love high-ownership eng teams" },
+    { label: "Environment", value: "Remote-friendly or on-site, open to relocation" },
+    { label: "Stage", value: "Early-career IC focused on low-level systems; love high-ownership eng teams" },
     {
       label: "Not a fit",
       value: "Pure web/frontend, heavy SaaS product work, or companies where perf is an afterthought",
